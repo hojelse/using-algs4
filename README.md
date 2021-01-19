@@ -13,7 +13,7 @@ otherwise you might use a absolute path `java -cp C:\path\to\algs4.jar myfile.ja
 
 ### Option 2 - terminal command `java myfile.java` with global classpath
 
-If you want to be able to import algs4 classes in any java file anywhere on your computer (globally), and use terminal command: `java myfile.java`, this is the option for you.
+If you want to be able to import algs4 classes in any java file anywhere on your computer (globally), and use terminal command: `java myfile.java`, try this option.
 
 ##### 1. Add the variable `CLASSPATH` to Enviroment Variables:
 
