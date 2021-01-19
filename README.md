@@ -50,7 +50,7 @@ You now should get IntelliSense (code suggestions) within VS Code and you can us
 
 **If you get no IntelliSense** try this in VS Code, press `ctrl+shift+p` and select the command `Java: Clean Java Language Server Workspace`.
 
-
+![vscode.png](readme-images/vscode.png)
 
 
 
