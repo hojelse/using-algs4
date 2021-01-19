@@ -2,7 +2,16 @@
 
 ## Windows and Java
 
-### Option 1 - terminal command `java myfile.java` with global classpath
+### Option 1 - terminal command `java -cp algs4.jar myfile.java` with manual classpath
+
+With this option you need to reference `algs4.jar` every time.
+
+##### 1. Use command `java -cp algs4.jar myfile.java`...
+if myfile.java and algs4.jar is in the same folder, and a relative path to `algs4.jar`
+
+otherwise you might use a absolute path `java -cp C:\path\to\algs4.jar myfile.java`
+
+### Option 2 - terminal command `java myfile.java` with global classpath
 
 If you want to be able to import algs4 classes in any java file anywhere on your computer (globally), and use terminal command: `java myfile.java`, this is the option for you.
 
@@ -21,15 +30,6 @@ path                    |   C:\path\to\jdk-1.2.3.4\bin\ *;some_other_unrelated_p
 ##### 3. import from algs4 by adding this line to the top of your .java file `import edu.princeton.cs.algs4.*;`
 
 ##### 4. and then use `java myfile.java` to execute your program
-
-### Option 2 - terminal command `java -cp algs4.jar myfile.java` with manual classpath
-
-With this option you need to reference `algs4.jar` every time.
-
-##### 1. Use command `java -cp algs4.jar myfile.java`...
-if myfile.java and algs4.jar is in the same folder, and a relative path to `algs4.jar`
-
-otherwise you might use a absolute path `java -cp C:\path\to\algs4.jar myfile.java`
 
 ## VS Code
 
