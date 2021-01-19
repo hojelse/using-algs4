@@ -3,7 +3,7 @@ import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 /**
- * Just a template file for demonstrating importing from algs4.jar
+ * Just a template file for demonstrating importing and using classes from algs4.jar
  * 
  */
 public class DisjointSets {
