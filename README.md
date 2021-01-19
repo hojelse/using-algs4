@@ -7,7 +7,7 @@
 With this option you need to reference `algs4.jar` every time.
 
 ##### 1. Use command `java -cp algs4.jar myfile.java`...
-if myfile.java and algs4.jar is in the same folder, and a relative path to `algs4.jar`
+... assuming myfile.java and algs4.jar is in the same folder, and a relative path `algs4.jar`
 
 otherwise you might use a absolute path `java -cp C:\path\to\algs4.jar myfile.java`
 
