@@ -8,6 +8,8 @@ If you want to be able to import algs4 classes in any java file anywhere on your
 
 Add the variable `CLASSPATH` to Enviroment Variables:
 
+*the variables, JAVA_HOME and value, might already be set after installing java jdk*
+
 Variable                | Value    
 ------------------------|----------
 CLASSPATH               |   C:\path\to\algs4.jar
@@ -15,8 +17,6 @@ JAVA_HOME               |   C:\path\to\jdk-1.2.3.4\
 path                    |   C:\path\to\jdk-1.2.3.4\bin\ *;some_other_unrelated_paths_you_shouldn't_mess_with*
 
 *replace `\path\to\jdk-1.2.3.4` with your actual path to your [java jdk](https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/latest)*
-
-*JAVA_HOME and the value *
 
 import from algs4 by adding this line to the top of your .java file `import edu.princeton.cs.algs4.*;`
 
