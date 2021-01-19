@@ -2,18 +2,22 @@
 
 ## Windows and Java
 
-### Option 1 - terminal command `java -cp algs4.jar myfile.java` with manual classpath
+### Option 1 - terminal command with manual classpath
 
 With this option you need to reference `algs4.jar` every time.
+
+To use the command `java -cp algs4.jar myfile.java`
 
 #### 1. Use command `java -cp algs4.jar myfile.java`...
 ... assuming myfile.java and algs4.jar is in the same folder, and a relative path `algs4.jar`
 
 otherwise you might use a absolute path `java -cp C:\path\to\algs4.jar myfile.java`
 
-### Option 2 - terminal command `java myfile.java` with global classpath
+### Option 2 - terminal command with global classpath
 
 If you want to be able to import algs4 classes in any java file anywhere on your computer (globally), and use terminal command: `java myfile.java`, try this option.
+
+To use the command `java myfile.java`
 
 #### 1. Add the variable `CLASSPATH` to Enviroment Variables:
 
