@@ -24,11 +24,12 @@ path                    |   C:\path\to\jdk-1.2.3.4\bin\ *;some_other_unrelated_p
 
 ### Option 2 - terminal command `java -cp algs4.jar myfile.java` with manual classpath
 
-Reference algs4 every time:
+With this option you need to reference `algs4.jar` every time.
 
-You can then use follwing command `java -cp C:\path\to\algs4.jar myfile.java`
+##### 1. Use command `java -cp algs4.jar myfile.java`...
+if myfile.java and algs4.jar is in the same folder, and a relative path to `algs4.jar`
 
-or `java -cp algs4.jar myfile.java` if myfile.java and algs4.jar is in the same folder.
+otherwise you might use a absolute path `java -cp C:\path\to\algs4.jar myfile.java`
 
 ## VS Code
 
