@@ -20,7 +20,7 @@ import from algs4 by adding this line to the top of your .java file `import edu.
 
 and then use `java myfile.java` to execute your program
 
-### Option 2 - terminal commands `java -cp algs4.jar myfile.java`
+### Option 2 - terminal command `java -cp algs4.jar myfile.java` with manual classpath
 
 Reference algs4 every time:
 
