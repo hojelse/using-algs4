@@ -1,4 +1,4 @@
-# using-algs4
+# Using algs4
 
 ## Windows and Java
 
