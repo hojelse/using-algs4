@@ -33,7 +33,7 @@ path                    |   C:\path\to\jdk-1.2.3.4\bin\ *;some_other_unrelated_p
 
 ## VS Code
 
-If you want to use a light weight IDE, as an alternative to IntelliJ and BlueJ, you might want to try VS Code
+If you want to use a light weight IDE, as an alternative to IntelliJ, you might want to try VS Code
 
 Install [java extension pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
