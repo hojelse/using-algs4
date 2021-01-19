@@ -8,7 +8,7 @@ If you want to be able to import algs4 classes in any java file anywhere on your
 
 Add the variable `CLASSPATH` to Enviroment Variables:
 
-*the variables, JAVA_HOME and value, might already be set after installing java jdk*
+*the variables, `JAVA_HOME` and `value`, might already be set after installing java jdk*
 
 Variable                | Value    
 ------------------------|----------
