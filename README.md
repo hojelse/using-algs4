@@ -7,11 +7,11 @@
 With this option you need to reference `algs4.jar` every time, and use the command `java -cp algs4.jar myfile.java`
 
 #### 1. Use the command
-Put myfile.java and algs4.jar is in the same folder and use the command `java -cp algs4.jar myfile.java`
+Put myfile.java and algs4.jar is in the same folder and use the command `java -cp algs4.jar myfile.java` (relative path)
 
-or maybe place the jar inside a lib folder and use the command `java -cp lib/algs4.jar myfile.java`
+or maybe place the jar inside a lib folder and use the command `java -cp lib/algs4.jar myfile.java` (relative path)
 
-otherwise you might use a absolute path `java -cp C:\path\to\algs4.jar myfile.java`
+otherwise you might use a absolute path `java -cp C:\path\to\algs4.jar myfile.java` (absolute path)
 
 ### Option 2 - terminal command with global classpath
 
