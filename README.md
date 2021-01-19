@@ -61,6 +61,8 @@ You now should get IntelliSense (code suggestions) within VS Code and you can us
 
 **If you get no IntelliSense** try this in VS Code, press `ctrl+shift+p` and select the command `Java: Clean Java Language Server Workspace`.
 
+Make sure algs4.jar is under *referenced libraries* in the *java projects* tab in the explorer, like the image below. This will add a *.vscode* folder with a file pointing to the jar
+
 ![vscode.png](readme-images/vscode.png)
 
 
