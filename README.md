@@ -44,9 +44,9 @@ path                    |   C:\path\to\jdk-1.2.3.4\bin\ *;some_other_unrelated_p
 The variables, *JAVA_HOME* and *path*, might already be set after installing java jdk.
 
 #### 2. Import from algs4
-Add this line to the top of your .java file `import edu.princeton.cs.algs4.*;`
+Add this line to the top of your MyProgram.java file `import edu.princeton.cs.algs4.*;` to import all algs4 classes.
 
-or just a specific package like `ìmport edu.princeton.cs.algs4.UF;`
+Or import just one class like `ìmport edu.princeton.cs.algs4.UF;`
 
 #### 3. Execute your program
 
