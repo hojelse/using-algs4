@@ -11,8 +11,6 @@ Put myfile.java and algs4.jar is in the same folder and use the command `java -c
 
 or maybe place the jar inside a lib folder and use the command `java -cp lib/algs4.jar myfile.java` (relative path)
 
-otherwise you might use a absolute path `java -cp C:\path\to\algs4.jar myfile.java` (absolute path)
-
 ### Option 2 - terminal command with global classpath
 
 If you want to be able to import algs4 classes in any java file anywhere on your computer (globally), and use terminal command: `java myfile.java`, try this option.
