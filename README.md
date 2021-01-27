@@ -11,7 +11,7 @@ With this option you need to reference `algs4.jar` every time you want to run yo
 Place MyProgram.java and algs4.jar in the same folder, or maybe place algs4.jar in a library folder like this:
 
 ```
-my_ads_programs/
+my_ADS_programs/
 ├─── lib/
 │    └─── algs4.jar
 ├─── MyProgram.java
@@ -67,7 +67,7 @@ You can create a folder structure with:
 e.g.:
 
 ```
-kattis/
+my_ADS_programs/
 ├─── lib/
 │    └─── algs4.jar
 ├─── MyProgram.java
