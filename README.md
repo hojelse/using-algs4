@@ -33,6 +33,8 @@ If you want to be able to import algs4 classes in any java file anywhere on your
 
 #### 1. Add the variable `CLASSPATH` to Enviroment Variables:
 
+Navigate to Enviroment Variable on Windows 10 `Control Panel > System and Security > System > Advanced System Settings > Advanced > Environment Variables`
+
 In the example below, replace `\path\to\jdk-1.2.3.4` with your actual path to your [java jdk](https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/latest)
 
 Variable                | Value    
