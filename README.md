@@ -6,10 +6,26 @@
 
 With this option you need to reference `algs4.jar` every time you want to run your program, using the command `java -cp algs4.jar myfile.java`
 
-#### 1. Use the command
-Put myfile.java and algs4.jar is in the same folder and use the command `java -cp algs4.jar myfile.java` (relative path)
+#### 1. Folder structure
 
-or maybe place the jar inside a lib folder and use the command `java -cp lib/algs4.jar myfile.java` (relative path)
+Place MyProgram.java and algs4.jar in the same folder, or maybe place algs4.jar in a library folder like this:
+
+```
+my_ads_programs/
+├─── lib/
+│    └─── algs4.jar
+├─── MyProgram.java
+```
+
+#### 2. Import from algs4
+Add this line to the top of your MyProgram.java file `import edu.princeton.cs.algs4.*;` to import all algs4 classes.
+
+Or import just one class like `ìmport edu.princeton.cs.algs4.UF;`
+
+#### 3. Execute your program
+Use the command `java -cp algs4.jar MyProgram.java` if they are in the same folder.
+
+or change the path to `lib/algs4.jar` if you created a lib folder e.g.: `java -cp lib/algs4.jar MyProgram.java`
 
 ### Option 2 - terminal command with global classpath
 
@@ -17,7 +33,7 @@ If you want to be able to import algs4 classes in any java file anywhere on your
 
 #### 1. Add the variable `CLASSPATH` to Enviroment Variables:
 
-Replace `\path\to\jdk-1.2.3.4` with your actual path to your [java jdk](https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/latest)
+In the example below, replace `\path\to\jdk-1.2.3.4` with your actual path to your [java jdk](https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/latest)
 
 Variable                | Value    
 ------------------------|----------
@@ -27,9 +43,14 @@ path                    |   C:\path\to\jdk-1.2.3.4\bin\ *;some_other_unrelated_p
 
 The variables, *JAVA_HOME* and *path*, might already be set after installing java jdk.
 
-#### 2. import from algs4 by adding this line to the top of your .java file `import edu.princeton.cs.algs4.*;`
+#### 2. Import from algs4
+Add this line to the top of your .java file `import edu.princeton.cs.algs4.*;`
 
-#### 3. use `java myfile.java` to execute your program
+or just a specific package like `ìmport edu.princeton.cs.algs4.UF;`
+
+#### 3. Execute your program
+
+Use command `java MyProgram.java`
 
 ## VS Code and Java
 
@@ -55,7 +76,7 @@ kattis/
 
 #### 3. Install [java extension pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
-You now should get IntelliSense (code suggestions) within VS Code and you can use the UI and `F5 key` (default keybinding) to run your java program.
+After installing, now you should get IntelliSense (code suggestions) within VS Code and you can use the UI or `F5 key` (default keybinding) to run your java program.
 
 **If you get no IntelliSense**
 
@@ -63,7 +84,7 @@ Try this in VS Code, press `ctrl+shift+p` and select the command `Java: Clean Ja
 
 **If VS Code doesn't recognize `import edu.princeton.cs.algs4.*;`**
 
-make sure algs4.jar is under *referenced libraries* in the *java projects* tab in the explorer, like the image below. This will add a *.vscode* folder with a file pointing to the jar.
+make sure algs4.jar is under *referenced libraries* in the *java projects* tab in the explorer, like the image below. This will add a *.vscode* folder containing a file containing some pointer to the jar.
 
 ![vscode.png](readme-images/vscode.png)
 
