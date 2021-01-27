@@ -25,7 +25,7 @@ CLASSPATH               |   C:\path\to\algs4.jar
 JAVA_HOME               |   C:\path\to\jdk-1.2.3.4\
 path                    |   C:\path\to\jdk-1.2.3.4\bin\ *;some_other_unrelated_paths_you_shouldn't_mess_with*
 
-The variables, *JAVA_HOME* and *value*, might already be set after installing java jdk.
+The variables, *JAVA_HOME* and *path*, might already be set after installing java jdk.
 
 #### 2. import from algs4 by adding this line to the top of your .java file `import edu.princeton.cs.algs4.*;`
 
