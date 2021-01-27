@@ -4,7 +4,7 @@
 
 ### Option 1 - terminal command with manual classpath
 
-With this option you need to reference `algs4.jar` every time, and use the command `java -cp algs4.jar myfile.java`
+With this option you need to reference `algs4.jar` every time you want to run your program, using the command `java -cp algs4.jar myfile.java`
 
 #### 1. Use the command
 Put myfile.java and algs4.jar is in the same folder and use the command `java -cp algs4.jar myfile.java` (relative path)
