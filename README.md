@@ -90,7 +90,7 @@ Try this in VS Code, press `ctrl+shift+p` and select the command `Java: Clean Ja
 **If VS Code doesn't recognize `import edu.princeton.cs.algs4.*;`**
 
 make sure algs4.jar is under *referenced libraries* in the *java projects* tab in the explorer, like the image below. This will add a *.vscode* folder containing a file containing some pointer to the jar file.
-
+```
 .vscode/
 ├─── settings.json/
 kattis/
