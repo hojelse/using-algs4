@@ -36,7 +36,7 @@ or change the path to `lib/algs4.jar` if you created a lib folder e.g.: `java -c
 
 If you want to be able to import algs4 classes in any java file anywhere on your computer (globally), and use terminal command: `java MyProgram.java`, try this option.
 
-### 1. Editing your Enviroment Variables:
+### 1. Editing your Enviroment Variables
 
 Navigate to Enviroment Variable on Windows 10 `Control Panel > System and Security > System > Advanced System Settings > Advanced > Environment Variables` to edit your environment variables
 
