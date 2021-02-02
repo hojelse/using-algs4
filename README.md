@@ -87,7 +87,7 @@ After installing, now you should get IntelliSense (code suggestions) within VS C
 
 Try this in VS Code, press `ctrl+shift+p` and select the command `Java: Clean Java Language Server Workspace`.
 
-**If VS Code doesn't recognize `import edu.princeton.cs.algs4.*;`**
+**If VS Code doesn't recognize algs4 imports and classes**
 
 make sure algs4.jar is under *referenced libraries* in the *java projects* tab in the explorer, like the image below. This will add a *.vscode* folder containing a file containing some pointer to the jar file.
 ```
