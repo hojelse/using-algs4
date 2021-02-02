@@ -1,6 +1,10 @@
 # Using algs4
 
-{:toc}
+1. [Windows and Java - Option 1 - terminal command with manual classpath
+](#windows-and-java---option-1---terminal-command-with-manual-classpath
+)
+2. [Windows and Java - Option 2 - terminal command with global classpath](#windows-and-java---option-2---terminal-command-with-global-classpath)
+3. [Visual Studio Code and Java](#visual-studio-code-and-java)
 
 ## Windows and Java - Option 1 - terminal command with manual classpath
 
@@ -58,7 +62,7 @@ Or import just one class like `import edu.princeton.cs.algs4.UF;`
 
 Use command `java MyProgram.java`
 
-## VS Code and Java
+## Visual Studio Code and Java
 
 If you want to use a light weight IDE, as an alternative to IntelliJ, you might want to try VS Code
 
