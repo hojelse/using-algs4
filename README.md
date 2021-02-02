@@ -1,5 +1,7 @@
 # Using algs4
 
+{:toc}
+
 ## Windows and Java - Option 1 - terminal command with manual classpath
 
 With this option you need to reference `algs4.jar` every time you want to run your program, using the command `java -cp algs4.jar MyProgram.java`
