@@ -1,5 +1,6 @@
 # Using algs4
 
+#### Table of Contents
 1. [Windows and Java - Option 1 - terminal command with manual classpath
 ](#windows-and-java---option-1---terminal-command-with-manual-classpath
 )
