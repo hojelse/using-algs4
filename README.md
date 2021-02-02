@@ -4,14 +4,14 @@
 
 ### Option 1 - terminal command with manual classpath
 
-With this option you need to reference `algs4.jar` every time you want to run your program, using the command `java -cp algs4.jar myfile.java`
+With this option you need to reference `algs4.jar` every time you want to run your program, using the command `java -cp algs4.jar MyProgram.java`
 
 #### 1. Folder structure
 
 Place MyProgram.java and algs4.jar in the same folder, or maybe place algs4.jar in a library folder like this:
 
 ```
-my_ADS_programs/
+kattis/
 ├─── lib/
 │    └─── algs4.jar
 ├─── MyProgram.java
@@ -29,11 +29,11 @@ or change the path to `lib/algs4.jar` if you created a lib folder e.g.: `java -c
 
 ### Option 2 - terminal command with global classpath
 
-If you want to be able to import algs4 classes in any java file anywhere on your computer (globally), and use terminal command: `java myfile.java`, try this option.
+If you want to be able to import algs4 classes in any java file anywhere on your computer (globally), and use terminal command: `java MyProgram.java`, try this option.
 
 #### 1. Add the variable `CLASSPATH` to Enviroment Variables:
 
-Navigate to Enviroment Variable on Windows 10 `Control Panel > System and Security > System > Advanced System Settings > Advanced > Environment Variables`
+Navigate to Enviroment Variable on Windows 10 `Control Panel > System and Security > System > Advanced System Settings > Advanced > Environment Variables` to edit your environment variables
 
 In the example below, replace `\path\to\jdk-1.2.3.4` with your actual path to your [java jdk](https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/latest)
 
@@ -69,7 +69,7 @@ You can create a folder structure with:
 e.g.:
 
 ```
-my_ADS_programs/
+kattis/
 ├─── lib/
 │    └─── algs4.jar
 ├─── MyProgram.java
