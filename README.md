@@ -71,18 +71,12 @@ If you want to use a light weight IDE, as an alternative to IntelliJ, you might 
 
 ### 2. Create a folder structure
 
-You can create a folder structure with:
-1. a `lib/` folder for algs4.jar
-2. a `.classpath` file with simply a single line `lib`
-
-e.g.:
-
+You can create a folder structure like this:
 ```
 kattis/
 ├─── lib/
 │    └─── algs4.jar
 ├─── MyProgram.java
-├─── .classpath
 ```
 
 ### 3. Install [java extension pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
@@ -96,6 +90,14 @@ Try this in VS Code, press `ctrl+shift+p` and select the command `Java: Clean Ja
 **If VS Code doesn't recognize `import edu.princeton.cs.algs4.*;`**
 
 make sure algs4.jar is under *referenced libraries* in the *java projects* tab in the explorer, like the image below. This will add a *.vscode* folder containing a file containing some pointer to the jar file.
+
+.vscode/
+├─── settings.json/
+kattis/
+├─── lib/
+│    └─── algs4.jar
+├─── MyProgram.java
+```
 
 ![vscode.png](readme-images/vscode.png)
 
