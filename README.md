@@ -1,12 +1,10 @@
 # Using algs4
 
-## Windows and Java
-
-### Option 1 - terminal command with manual classpath
+## Windows and Java - Option 1 - terminal command with manual classpath
 
 With this option you need to reference `algs4.jar` every time you want to run your program, using the command `java -cp algs4.jar MyProgram.java`
 
-#### 1. Folder structure
+### 1. Folder structure
 
 Place MyProgram.java and algs4.jar in the same folder, or maybe place algs4.jar in a library folder like this:
 
@@ -17,21 +15,21 @@ kattis/
 ├─── MyProgram.java
 ```
 
-#### 2. Import from algs4
+### 2. Import from algs4
 Add this line to the top of your MyProgram.java file `import edu.princeton.cs.algs4.*;` to import all algs4 classes.
 
 Or import just one class like `ìmport edu.princeton.cs.algs4.UF;`
 
-#### 3. Execute your program
+### 3. Execute your program
 Use the command `java -cp algs4.jar MyProgram.java` if they are in the same folder.
 
 or change the path to `lib/algs4.jar` if you created a lib folder e.g.: `java -cp lib/algs4.jar MyProgram.java`
 
-### Option 2 - terminal command with global classpath
+## Windows and Java - Option 2 - terminal command with global classpath
 
 If you want to be able to import algs4 classes in any java file anywhere on your computer (globally), and use terminal command: `java MyProgram.java`, try this option.
 
-#### 1. Add the variable `CLASSPATH` to Enviroment Variables:
+### 1. Add the variable `CLASSPATH` to Enviroment Variables:
 
 Navigate to Enviroment Variable on Windows 10 `Control Panel > System and Security > System > Advanced System Settings > Advanced > Environment Variables` to edit your environment variables
 
@@ -49,12 +47,12 @@ On windows 10 it might look something like this:
 
 ![algs4classpaths.png](/readme-images/algs4classpath.png)
 
-#### 2. Import from algs4
+### 2. Import from algs4
 Add this line to the top of your MyProgram.java file `import edu.princeton.cs.algs4.*;` to import all algs4 classes.
 
 Or import just one class like `import edu.princeton.cs.algs4.UF;`
 
-#### 3. Execute your program
+### 3. Execute your program
 
 Use command `java MyProgram.java`
 
@@ -62,9 +60,9 @@ Use command `java MyProgram.java`
 
 If you want to use a light weight IDE, as an alternative to IntelliJ, you might want to try VS Code
 
-#### 1. Install [VS Code](https://code.visualstudio.com/)
+### 1. Install [VS Code](https://code.visualstudio.com/)
 
-#### 2. Create a folder structure
+### 2. Create a folder structure
 
 You can create a folder structure with:
 1. a `lib/` folder for algs4.jar
@@ -80,7 +78,7 @@ kattis/
 ├─── .classpath
 ```
 
-#### 3. Install [java extension pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+### 3. Install [java extension pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
 After installing, now you should get IntelliSense (code suggestions) within VS Code and you can use the UI or `F5 key` (default keybinding) to run your java program.
 
